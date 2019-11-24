@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: 461200
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 4KB
+      max-request-size: 1024000MB
+      max-file-size: 1024000MB
+
+  server:
+    port:8080
+
